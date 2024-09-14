@@ -30,7 +30,7 @@ criarSenhaPers = geradorSenha(conjCaract)
 
 # Função para salvar a senha em um arquivo
 def criarArquivo(senha, nome_arquivo):
-    with open(nome_arquivo, 'w') as arquivo:
+    with open(nome_arquivo, 'a') as arquivo:
         arquivo.write(senha + '\n')
 
 # Programa principal
