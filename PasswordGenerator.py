@@ -52,7 +52,7 @@ if __name__ == "__main__":
         print("Comprimento inválido. Por favor, insira um valor entre 6 e 20.")
         comprimento = int(input("Digite o comprimento da senha (entre 6 e 20): "))
     
-    # Usa as funções de transformação para gerar senhas com prefixo e sufixo
+    # Usa as funções de transformação para gerar senhas com prefixo
     senhaFinal = addPrefixo(comprimento)
     
     print("Senha para ", senhaFinal)
