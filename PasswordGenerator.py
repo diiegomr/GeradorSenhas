@@ -18,11 +18,11 @@ def transformar(transformacao):
         return transformacao(senha)
     return transformarSenha
 
-# Funções de transformação exemplo: Adiciona um prefixo ou sufixo
+# Funções de transformação para adicionar um prefixo com o nome da plataforma
 def addPrefixo(prefixo):
     return lambda senha: prefixo + ": " + senha
 
-# Conjunto de caracteres para a senha: dígitos, letras minúsculas e maiúsculas
+# Conjunto de caracteres para a senha: dígitos, letras minúsculas, maiúsculas, pontuação e dígitos hexadecimais
 conjCaract = string.digits + string.ascii_letters + string.punctuation + string.hexdigits
 
 # Cria uma função de geração de senha usando o conjunto de caracteres especificado
