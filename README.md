@@ -1,0 +1,1 @@
+Aplicação criada para a cadeira de Programação Funcional do curso de Análise e DEsenvolvimento de Sistema da Universidade de Fortaleza (UniFor). O aplicativo visa gerar senhas aleatórias e salvá-las em um arquivo de texto para posterior consulta.
