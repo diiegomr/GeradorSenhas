@@ -39,7 +39,7 @@ if __name__ == "__main__":
     # Especificar a plataforma
     plataforma = str(input("Para qual plataforma a senha será criada? "))
 
-    # Cria funções de transformação que adicionam prefixo
+    # Cria funções de transformação que adicionam o prefixo com o nome da plataforma
     addPrefixo = transformar(addPrefixo(plataforma))
 
     # Função Lambda: Valida o comprimento da senha
@@ -58,4 +58,3 @@ if __name__ == "__main__":
     print("Senha para ", senhaFinal)
     
     criarArquivo(senhaFinal, 'minhasSenhas.txt')
-
